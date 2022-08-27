@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block page %}
+  {% for bottle in bottles_list %}
+        <div> {{bottle.text}}</div>
+    {%endfor%}
+    <button type="button" class="btn btn-success">success</button>
+
+{%endblock%}
+
+
+
+
+
+
+
+
+
